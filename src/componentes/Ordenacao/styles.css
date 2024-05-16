@@ -1,0 +1,22 @@
+.lista-ordenacao button{
+    font-size: 22px;
+    background-color: transparent;
+    list-style-type: none;
+    align-items: center;
+    border: none;
+}
+
+.lista-ordenacao__item{
+    color: var(--cinza-medio);
+}
+
+.lista-ordenacao__item-active{
+    color: var(--verde-destaque);
+}
+
+.lista-ordenacao{
+    display: flex;
+    gap: 1.5em;
+    justify-content: center;
+    margin: 3.5em 0 2em 0;
+}
